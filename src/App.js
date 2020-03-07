@@ -20,8 +20,8 @@ class App extends Component {
 
   render() {
     return (
-      <Provider basename={process.env.PUBLIC_URL}>
-        <Router>
+      <Provider>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="App">
             <Header branding="Contact Manager" />
 
