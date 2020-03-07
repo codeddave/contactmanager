@@ -29,7 +29,7 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Contacts} />
 
-                <Route exact path="/contact/add" component={AddContact} />
+                <Route exact path="/add" component={AddContact} />
                 <Route exact path="/contact/edit/:id" component={EditContact} />
 
                 <Route exact path="/about" component={About} />
